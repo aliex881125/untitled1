@@ -22,12 +22,12 @@ public class dataFrame extends JFrame {
     //下放按鈕放置
     private  JPanel jpnS = new JPanel(new GridLayout(1,8,2,2));
     private JLabel light = new JLabel();
-    private JButton connect = new JButton("Connect");
+    private JButton connect = new JButton("disonnect");
     private JLabel space = new JLabel();
     private JLabel space1 = new JLabel();
     private JButton exit = new JButton("Exit");
 
-    private int n =0;
+    private int n =1;
 
 
 
